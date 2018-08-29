@@ -3,7 +3,7 @@ A Metric-Imperial Converter API built with Node, Express, Helmet and Chai
 
 Try it here:https://thundering-buffet.glitch.me/
 
-##User Stories
+## User Stories
 I will help prevent the client from trying to guess(sniff) the MIME type.
 I will prevent cross-site scripting (XSS) attacks.
 I can GET /api/convert with a single parameter containing an accepted number and unit and have it converted.
@@ -19,12 +19,12 @@ My return will consist of the initNum, initUnit, returnNum, returnUnit, and stri
 All 16 unit tests are complete and passing.
 All 5 functional tests are complete and passing.
 
-##Example usage:
+## Example usage:
 /api/convert?input=4gal
 /api/convert?input=1/2km
 /api/convert?input=5.4/3lbs
 /api/convert?input=kg
 
-##Example return:
+## Example return:
 {initNum: 3.1, initUnit: 'mi', returnNum: 5.0000008, returnUnit: 'km', string: '3.1 miles converts to 5.00002 kilometers'}
 
