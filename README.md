@@ -1,7 +1,7 @@
 A Metric-Imperial Converter API built with Node, Express, Helmet and Chai 
 ------
 
-Try it here:https://thundering-buffet.glitch.me/
+Try it here: https://thundering-buffet.glitch.me/
 
 ## User Stories
 1. I will help prevent the client from trying to guess(sniff) the MIME type.
