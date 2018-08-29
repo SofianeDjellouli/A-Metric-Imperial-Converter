@@ -1,6 +1,8 @@
 A Metric-Imperial Converter API built with Node, Express, Helmet and Chai 
 ------
 
+It includes Helmet security and Chai testing.
+
 Try it here: https://thundering-buffet.glitch.me/
 
 ## User Stories
