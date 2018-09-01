@@ -10,11 +10,11 @@ var apiRoutes         = require('./routes/api.js');
 var fccTestingRoutes  = require('./routes/fcctesting.js');
 var runner            = require('./test-runner');
 
-// Security with helmet
-helmet.noSniff();
-helmet.xssFilter()
-
 var app = express();
+
+// Security with helmet
+app.use(helmet.noSniff())
+app.use(helmet.xssFilter())
 
 app.use('/public', express.static(process.cwd() + '/public'));
 
