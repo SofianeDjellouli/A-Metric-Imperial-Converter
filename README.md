@@ -1,10 +1,13 @@
 # API Metric-Imperial Converter
-------
 ## Stack
-Node, Express, MongoDB, Chai, Helmet 
-It includes Helmet security and Chai testing.
+* Node
+* Express
+* MongoDB
+* Chai
+* Helmet 
 
-Try it here: https://imperial-converter-fcc.glitch.me/
+## Live
+https://metric-imperial-converter-.glitch.me/
 
 ## User Stories
 1. I will help prevent the client from trying to guess(sniff) the MIME type.
@@ -22,7 +25,7 @@ Try it here: https://imperial-converter-fcc.glitch.me/
 13. All 16 unit tests are complete and passing.
 14. All 5 functional tests are complete and passing.
 
-## Example usage:
+### Example usage:
 https://imperial-converter-fcc.glitch.me/api/convert?input=4gal
 
 https://imperial-converter-fcc.glitch.me/api/convert?input=1/2km
@@ -31,6 +34,6 @@ https://imperial-converter-fcc.glitch.me/api/convert?input=5.4/3lbs
 
 https://imperial-converter-fcc.glitch.me/api/convert?input=kg
 
-## Example return:
+### Example return:
 `{initNum: 3.1, initUnit: 'mi', returnNum: 5.0000008, returnUnit: 'km', string: '3.1 miles converts to 5.00002 kilometers'}`
 
