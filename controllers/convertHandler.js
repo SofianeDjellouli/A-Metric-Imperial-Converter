@@ -9,13 +9,17 @@
 function ConvertHandler() {
   
   this.getNum = function(input) { 
+//     we check if the input includes more than one /
     if (input.indexOf('/')!==input.lastIndexOf('/')){
       return 'Invalid Input (double fraction)'
     }
+//     returns the input if it includes a number including fraction, 
+//     otherwise, returns 1
     return input.match(/[a-zA-Z]+|[0-9./]+/g).length===2?
        eval(input.match(/[a-zA-Z]+|[0-9./]+/g)[0]): 1
   };
   
+// returns the unit part of the input with the same logic as above
   this.getUnit = function(input) {
     return input.match(/[a-zA-Z]+|[0-9./]+/g).length===2?
       input.match(/[a-zA-Z]+|[0-9./]+/g)[1]:input.match(/[a-zA-Z]+|[0-9./]+/g)[0]
@@ -23,6 +27,7 @@ function ConvertHandler() {
   
   this.units=['gal','lbs','mi','km','kg','l']
   
+// loops through the units variable to return the lowercase opposite of the input unit
   this.getReturnUnit = function(initUnit) {
     for (let i=0;i<this.units.length;i++){
       if (initUnit.toLowerCase()===this.units[i]){
@@ -35,6 +40,8 @@ function ConvertHandler() {
     return unit.toLowerCase();
   };
   
+// loops to use the converters in different ways according 
+// to the position of the init unit if the units variable
   this.convert = function(initNum, initUnit) {
     initUnit=initUnit.toLowerCase()
     const galToL = 3.78541;

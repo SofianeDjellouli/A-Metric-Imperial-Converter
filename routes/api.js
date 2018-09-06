@@ -24,6 +24,8 @@ module.exports = function (app) {
       var returnNum = convertHandler.convert(initNum, initUnit);
       var returnUnit = convertHandler.getReturnUnit(initUnit);
       var toString = convertHandler.getString(initNum, initUnit, returnNum, returnUnit);
+// checks if the init unit is not in the units variable
+// and the init number has more than one /
       if (units.indexOf(initUnit.toLowerCase())===-1 
          && input.indexOf('/')!==input.lastIndexOf('/')){
         res.send('invalid unit and number')
