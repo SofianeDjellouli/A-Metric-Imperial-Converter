@@ -1,6 +1,7 @@
-A Metric-Imperial Converter API built with Node, Express, Helmet and Chai 
+# API Metric-Imperial Converter
 ------
-
+## Stack
+Node, Express, MongoDB, Chai, Helmet 
 It includes Helmet security and Chai testing.
 
 Try it here: https://imperial-converter-fcc.glitch.me/
