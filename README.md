@@ -26,13 +26,10 @@ https://metric-imperial-converter-.glitch.me/
 14. All 5 functional tests are complete and passing.
 
 ### Example usage:
-https://imperial-converter-fcc.glitch.me/api/convert?input=4gal
-
-https://imperial-converter-fcc.glitch.me/api/convert?input=1/2km
-
-https://imperial-converter-fcc.glitch.me/api/convert?input=5.4/3lbs
-
-https://imperial-converter-fcc.glitch.me/api/convert?input=kg
+* https://imperial-converter-fcc.glitch.me/api/convert?input=4gal
+* https://imperial-converter-fcc.glitch.me/api/convert?input=1/2km
+* https://imperial-converter-fcc.glitch.me/api/convert?input=5.4/3lbs
+* https://imperial-converter-fcc.glitch.me/api/convert?input=kg
 
 ### Example return:
 `{initNum: 3.1, initUnit: 'mi', returnNum: 5.0000008, returnUnit: 'km', string: '3.1 miles converts to 5.00002 kilometers'}`
