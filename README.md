@@ -34,3 +34,8 @@ https://metric-imperial-converter-.glitch.me/
 ### Example return:
 `{initNum: 3.1, initUnit: 'mi', returnNum: 5.0000008, returnUnit: 'km', string: '3.1 miles converts to 5.00002 kilometers'}`
 
+## My code with comments
+This project being part of the FreeCodeCamp curriculum, I only had to code the following files:
+https://github.com/SofianeDjellouli/Metric-Imperial-Converter-API/blob/master/server.js
+https://github.com/SofianeDjellouli/Metric-Imperial-Converter-API/blob/master/routes/api.js
+https://github.com/SofianeDjellouli/Metric-Imperial-Converter-API/blob/master/controllers/convertHandler.js
